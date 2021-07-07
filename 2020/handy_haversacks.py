@@ -9,7 +9,7 @@ contained_manifesto = {}
 container_manifesto = {}
 
 # stupid wrangle bullshit
-with open("input7.txt", "r") as f:
+with open("inputs/input7.txt", "r") as f:
     for line in f:
         bag_container = {}
         # strip the stupid filler

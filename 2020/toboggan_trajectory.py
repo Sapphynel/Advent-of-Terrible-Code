@@ -5,7 +5,7 @@
 trees = []
 period = 0
 # Load
-with open("input3.txt", "r") as f:
+with open("inputs/input3.txt", "r") as f:
     period = len(f.readline()) - 1
     f.seek(0,0)
     for line in f:

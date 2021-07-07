@@ -11,7 +11,7 @@ addresses = {}
 current_mask = ""
 writes = []
 
-with open("input14.txt", "r") as f:
+with open("inputs/input14.txt", "r") as f:
     for line in f:
         if "mask" in line:
             current_mask = line[7:-1]

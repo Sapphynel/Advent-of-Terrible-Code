@@ -7,7 +7,7 @@ acc_points = []
 possible_problem_nop = []
 possible_problem_jmp = []
 
-with open("input8.txt", "r") as f:
+with open("inputs/input8.txt", "r") as f:
     pointer = -1
     for line in f:
         pointer += 1

@@ -3,7 +3,7 @@
 # grabbed your North Pole Credentials instead of your passport.
 passports = []
 
-with open("input4.txt", "r") as f:
+with open("inputs/input4.txt", "r") as f:
     passport = {}
     for line in f:
         if line == "\n":

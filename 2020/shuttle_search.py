@@ -3,7 +3,7 @@
 # Your ferry can make it safely to a nearby port,
 # but it won't get much further.
 
-with open("input13.txt", "r") as f:
+with open("inputs/input13.txt", "r") as f:
     time = int(f.readline())
     bus_timeline = f.readline().strip().split(",")
 

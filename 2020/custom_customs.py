@@ -3,7 +3,7 @@
 # you'll switch to a much larger plane, customs declaration forms
 # are distributed to the passengers.
 groups = 0
-with open("input6.txt", "r") as f:
+with open("inputs/input6.txt", "r") as f:
     people = []
     for line in f:
         if line == "\n":

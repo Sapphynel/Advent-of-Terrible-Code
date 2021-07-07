@@ -4,7 +4,7 @@
 # directly to the tropical island where you can finally start your vacation.
 import copy
 first_grid = []
-with open("input11.txt", "r") as f:
+with open("inputs/input11.txt", "r") as f:
     row = []
     for line in f:
         for char in line[:-1]:

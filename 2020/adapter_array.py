@@ -5,7 +5,7 @@
 # however, your device suddenly turns off!
 adapters = [0]
 
-with open("input10.txt", "r") as f:
+with open("inputs/input10.txt", "r") as f:
     for line in f:
         adapters.append(int(line))
 

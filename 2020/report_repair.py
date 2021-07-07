@@ -6,7 +6,7 @@
 # Load
 input_list = []
 
-with open("input1.txt", "r") as f:
+with open("inputs/input1.txt", "r") as f:
     for line in f:
         input_list.append(int(line))
 

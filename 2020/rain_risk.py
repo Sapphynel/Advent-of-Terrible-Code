@@ -11,7 +11,7 @@ instructions = []
 position = [0, 0]
 waypoint_position = [10,1]
 
-with open("input12.txt", "r") as f:
+with open("inputs/input12.txt", "r") as f:
     for line in f:
         instructions.append([line[0], int(line[1:])])
 # part 1: cartesian

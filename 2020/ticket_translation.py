@@ -10,7 +10,7 @@ my_ticket = []
 other_tickets = []
 raw_intervals = []
 matching = {}
-with open("input16.txt", "r") as f:
+with open("inputs/input16.txt", "r") as f:
     # parsing this file is...annoying.
     # First part
     line = f.readline() # deal with the stupid beginning line...

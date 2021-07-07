@@ -6,7 +6,7 @@
 cipher_entries = []
 window = 25
 
-with open("input9.txt", "r") as f:
+with open("inputs/input9.txt", "r") as f:
     for line in f:
         cipher_entries.append(int(line))
 

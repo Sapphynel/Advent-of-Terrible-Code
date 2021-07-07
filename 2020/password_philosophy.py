@@ -4,7 +4,7 @@
 
 # Load
 inputs = []
-with open("input2.txt", "r") as f:
+with open("inputs/input2.txt", "r") as f:
     for line in f:
         # Parse it and add:
         row_input = line.split()

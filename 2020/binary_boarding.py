@@ -6,7 +6,7 @@ binary_check = {"F": "0", "B": "1", "L": "0", "R": "1"}
 
 seats = []
 
-with open("input5.txt", "r") as f:
+with open("inputs/input5.txt", "r") as f:
     for line in f:
         string_id = ''.join([binary_check[char] for char in line.strip()])
         split = [int(string_id[0:7], 2), int(string_id[7:], 2)]
